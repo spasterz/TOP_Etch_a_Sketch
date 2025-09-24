@@ -1,0 +1,10 @@
+body {
+    background-color: #eaeaea;
+}
+
+#main-container {
+    margin: 75px auto 0 auto;
+    width: 70%;
+    background-color: white;
+    border: 1px solid #c8c8c8;
+}
