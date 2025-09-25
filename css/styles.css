@@ -8,7 +8,7 @@ body {
 
 #ui-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 74px auto 0 auto;
     width: 70%;
 }
@@ -17,11 +17,22 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 16px auto 0 auto;
-    /* width: 70%; */
+    margin: 16px auto 16px auto;
     background-color: white;
     border: 1px solid #c8c8c8;
-    padding: 15px;
-    border-radius: 5px;
+    /* padding: 15px; */
+    /* border-radius: 5px; */
+}
+
+.pixel {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    border: .5px solid #c8c8c8;
+}
+
+.active {
+    opacity: .1;
 }
 
